@@ -1,0 +1,687 @@
+@font-face {
+    font-family: Evers;
+    src: url(fuentes/Evers.ttf);
+}
+
+@font-face {
+    font-family: Obrazec;
+    src: url(fuentes/obrazec.otf);
+}
+
+
+@font-face {
+    font-family: Monument Extended;
+    src: url(fuentes/MonumentExtended-Regular.otf);
+}
+
+
+
+body {
+    margin: 0;
+    background-color: black;
+    background-image: url(imagenes/wosfondo.png);
+   background-position: 100%;
+   background-size:15%;
+   background-origin: content-box;
+}
+
+.mega {
+    width: 100%;
+    height: auto;
+   
+}
+
+
+.logo{
+    width: 15%;
+    height: auto;
+}
+
+nav {
+    width: 75%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color:#ff2a00;
+    font-family: Evers;
+}
+
+header img {
+    width: 70%;
+
+}
+
+header {
+    padding-top: 1%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(150, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+   
+    flex-direction: column;
+}
+
+main h3 {
+    color: white;
+    font-size: 70px;
+    font-family: Obrazec;
+    display: flex;
+    margin-left: 3%;
+    border-bottom: solid 2px white;
+    width: 100%;
+   
+}
+
+
+.contenedortarjetas a:hover {
+    background-color: #222222;
+    animation: 0.5s;
+}
+
+
+
+
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+
+    
+}
+
+.sugerencia {
+    color:#ff2a00;
+    font-family: Evers;
+    margin-left: 35%;
+    text-decoration: none;
+}
+
+.sugerencia a:link {
+    text-decoration: none;
+    color:#ff2a00;
+}
+
+.sugerencia a:visited {
+    text-decoration: none;
+    color:#ff2a00;
+}
+
+a:hover {
+    transition: 0.4s;
+    color: white;
+}
+
+.sugerencia a:hover {
+    transition: 0.4s;
+    color: white;
+}
+
+
+.contenedortarjetas a:link, .contenedortarjetas a:visited {
+    text-decoration: none;
+}
+
+.tarjeta {
+    box-shadow: 0px 1px 4px white;
+    width: 260px;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+.arriba img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.arriba {
+    width: 100%;
+    height: auto;
+}
+
+.abajo {
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+}
+
+
+.contenedortarjetas {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap;
+}
+  .abajo h2 {
+   
+    
+        margin-left: 2%;
+        margin-right: 2%;
+        font-family: Monument Extended;
+        font-size: 14px;
+        font-weight: 100;
+        color: #8d8d8d;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        text-transform: uppercase;
+         padding-top: 20px;
+
+  }
+
+  .abajo h5 {
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+    margin: 10px;
+    font-weight: 100;
+    font-family: Monument Extended;
+  }
+
+
+
+  .fotowos {
+    width: 30%;
+    height: auto;
+    background-color: #222222;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .infowos {
+    width: 60%;
+    height: auto;
+    background-color: #2b2b2b6b;
+   
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+  }
+
+
+    
+  
+
+  .padre {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fotowos img {
+    height: auto;
+    width: 100%;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+    
+}
+
+.infowos h2 {
+    font-family: Evers;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+   
+}
+
+.infowos p {
+    font-family: Monument Extended;
+    line-height: 1.7;
+    font-size: 18px;
+    color: hsl(0, 100%, 50%); 
+    margin: 4%;   
+    text-align: left;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width: 1300px){
+    .padre {
+        flex-direction: column-reverse;
+    
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infowos {
+        width: 80%;
+    }
+
+    .fotowos {
+        width: 80%;
+    }
+}
+
+
+
+
+/* apartado gorra */
+
+.nashecontenedor {
+    width: 100%;
+
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    
+}
+
+.textoa {
+    
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px ;
+    height: auto;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: rgb(221, 221, 221);
+}
+
+.fotooa {
+    width: 50%;
+    min-height: ;
+    height: auto;
+}
+
+.fotooa img {
+    width: 95%;
+    height: auto;
+
+}
+
+.adentro {
+    border-radius: 10px;
+    padding-left: 2%;
+    width: 75%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.textoa h1 {
+    margin-top: 10%;
+    text-align: left;
+    font-size: 30px;
+    font-family: Monument Extended;
+    border-bottom: 1px #ff0000 solid;
+    width: 100%;
+}
+
+
+.boton {
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Monument Extended;
+    width: 70%;
+    color: white;
+     background-color: #070707;
+     text-decoration: none;
+     font-size: 15px;
+     
+
+
+}
+
+.textoa h3 {
+    font-family: Monument Extended;
+    color: #8d8d8d;
+    font-size: 30px;
+}
+
+.arribaaa {
+    width: 90%;
+    height: auto;
+   margin-left: 5%;
+
+    
+}
+
+.abajooo {
+    width: 100%;
+    margin-bottom: 10%;
+    height: auto;
+    margin-left: 5%;
+    display: flex;
+}
+
+
+.textoa h6 {
+    font-size: 10px;
+    font-family: Monument Extended;
+    font-weight:100;
+    color: #727272;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+     
+        display: flex;
+        align-items: center;
+       
+        padding: 25px 25px;
+        gap: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+      }
+      
+      /* for all social containers*/
+      .socialContainer {
+        width: 52px;
+        height: 52px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition-duration: .3s;
+      }
+      /* instagram*/
+      .containerOne:hover {
+        background-color: #d62976;
+        transition-duration: .3s;
+      }
+      /* twitter*/
+      .containerTwo:hover {
+        background-color: #00acee;
+        transition-duration: .3s;
+      }
+      /* linkdin*/
+      .containerThree:hover {
+        background-color: #0072b1;
+        transition-duration: .3s;
+      }
+      /* Whatsapp*/
+      .containerFour:hover {
+        background-color: #128C7E;
+        transition-duration: .3s;
+      }
+      
+      .socialContainer:active {
+        transform: scale(0.9);
+        transition-duration: .3s;
+      }
+      
+      .socialSvg {
+        width: 17px;
+      }
+      
+      .socialSvg path {
+        fill: rgb(255, 255, 255);
+      }
+      
+      .socialContainer:hover .socialSvg {
+        animation: slide-in-top 0.3s both;
+      }
+      
+      @keyframes slide-in-top {
+        0% {
+          transform: translateY(-50px);
+          opacity: 0;
+        }
+      
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+
+      footer {
+        display: flex;
+       background-color: white; 
+       justify-content: space-around;
+       align-items: center;
+       height: auto;
+       min-height: 150px;
+       margin-top: 10%;
+       
+       
+      }
+
+      .logo1 {
+        width: 15%;
+        height: auto;
+      }
+
+      .doguito {
+        width: 20%;
+        height: auto;
+      }
+
+      .card {
+        width: 20%;
+        height: auto;
+      }
+
+      .logo1 img {
+        width: 80%;
+      }
+
+      .doguito img {
+        width: 100%;
+      }
+
+
+
+
+
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropntn img {
+        width: 20%;
+    }
+
+    .dropbtn {
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+       
+        font-size: 16px;
+        cursor: pointer;
+        width: 30%;
+
+        transition: background-color 0.3s;
+    }
+    
+    .dropbtn:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        border: 2px solid black;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .show {
+        display: block;
+    }
+
+    .grande {
+        width: 100%;
+        height: auto    ;   
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2%;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+
+    .letras {
+        width: 40%;
+        height: auto;
+
+    }
+
+    .pixeles {
+        width: 25%;
+        height: auto;
+    }
+
+    .pixeles img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .letras h2 {
+        font-family: Obrazec;
+        font-size: 70px;
+        color: rgb(255, 7, 7);
+        font-weight: 100;
+        border-bottom: 1px white solid;
+   
+    }
+
+    .letras p {
+        font-family: Monument Extended;
+        font-weight: 100;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .parte1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .parte2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .parte2 h2, .parte2 p {
+        text-align: right;
+    }
+
+    .parte3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .parte4 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .parte4 h2, .parte4 p {
+        text-align: right;
+    }
+
+    .izquier  {
+        width: 40%;
+        height: auto;
+      
+        align-items: center;
+
+    }
+
+    .derech {
+        width: 50%;
+        height: auto;
+    }
+
+    input {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 3%;
+        display: flex;
+        background-color: #00000000;
+        border: solid 1 px red;
+        box-shadow: none;
+    }
+
+        .mainn {
+            margin-top: 5%;
+        }
+
+
+        .mani h1 {
+            color: white;
+            font-family: Obrazec;
+            font-size: 70px;
+        }
+
+        .mani h3 {
+            color: white;
+            font-size: 70px;
+            font-family: Obrazec;
+            display: flex;
+            margin-left: 3%;
+            border-bottom: solid 2px white;
+            width: 94%;
+           
+        }
